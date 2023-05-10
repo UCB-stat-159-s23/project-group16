@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>STAT 159 - Final Project &#8212; Final Project - STAT 156</title>
+    <title>Predicting Health Insurance Charges: An Exploratory Analysis of Demographic and Lifestyle Factors &#8212; Final Project - STAT 156</title>
   
   
   
@@ -151,11 +151,12 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1 current active">
                 <a class="reference internal" href="#">
-                    STAT 159 - Final Project
+                    Predicting Health Insurance Charges: An Exploratory Analysis of Demographic and Lifestyle Factors
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Supplemental Notebooks</span></p>
+<ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="eda.html">Data Exploration and Analysis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="modeling.html">Modeling</a></li>
 <li class="toctree-l1"><a class="reference internal" href="project-description.html">Final Project: original data analysis</a></li>
@@ -373,7 +374,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>STAT 159 - Final Project</h1>
+    <h1>Predicting Health Insurance Charges: An Exploratory Analysis of Demographic and Lifestyle Factors</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -383,32 +384,33 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#predicting-health-insurance-charges-an-exploratory-analysis-of-demographic-and-lifestyle-factors">Predicting Health Insurance Charges: An Exploratory Analysis of Demographic and Lifestyle Factors</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">1. Introduction</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#overview-and-objectives">1.1 Overview and Objectives</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-description-and-relevance">1.2 Dataset Description and Relevance</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stat-159-final-project">STAT 159 - Final Project</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#created-by-group-16-claire-mai-avery-klauke-gilberto-perezalonso-prasaan-guruprasad">Created by Group 16: Claire Mai, Avery Klauke, Gilberto Perezalonso, Prasaan Guruprasad</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-preprocessing-and-exploration">2. Data Preprocessing and Exploration</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessing-and-cleaning">2.1 Preprocessing and Cleaning</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#data-exploration">2.2 Data Exploration</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#key-findings">2.3 Key Findings</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">1. Introduction</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overview-and-objectives">1.1 Overview and Objectives</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-description-and-relevance">1.2 Dataset Description and Relevance</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assumptions-and-justification">3. Assumptions and Justification</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#assumptions">3.1 Assumptions</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#justifications-and-limitations">3.2 Justifications and Limitations</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#statistical-hypothesis-and-model">3.3 Statistical Hypothesis and Model</a><ul class="nav section-nav flex-column">
-<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-regression">Linear Regression</a></li>
-<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#modeling">Modeling</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-preprocessing-and-exploration">2. Data Preprocessing and Exploration</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessing-and-cleaning">2.1 Preprocessing and Cleaning</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-exploration">2.2 Data Exploration</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#key-findings">2.3 Key Findings</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assumptions-and-justification">3. Assumptions and Justification</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assumptions">3.1 Assumptions</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#justifications-and-limitations">3.2 Justifications and Limitations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#statistical-hypothesis-and-model">3.3 Statistical Hypothesis and Model</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-regression">Linear Regression</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#modeling">Modeling</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-and-results">4. Analysis and Results</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contribution-statement">5. Contribution Statement</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-and-results">4. Analysis and Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contribution-statement">5. Contribution Statement</a></li>
 </ul>
             </nav>
         </div>
@@ -420,10 +422,12 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="stat-159-final-project">
-<h1>STAT 159 - Final Project<a class="headerlink" href="#stat-159-final-project" title="Permalink to this heading">#</a></h1>
-<section id="predicting-health-insurance-charges-an-exploratory-analysis-of-demographic-and-lifestyle-factors">
-<h2>Predicting Health Insurance Charges: An Exploratory Analysis of Demographic and Lifestyle Factors<a class="headerlink" href="#predicting-health-insurance-charges-an-exploratory-analysis-of-demographic-and-lifestyle-factors" title="Permalink to this heading">#</a></h2>
+  <section id="predicting-health-insurance-charges-an-exploratory-analysis-of-demographic-and-lifestyle-factors">
+<h1>Predicting Health Insurance Charges: An Exploratory Analysis of Demographic and Lifestyle Factors<a class="headerlink" href="#predicting-health-insurance-charges-an-exploratory-analysis-of-demographic-and-lifestyle-factors" title="Permalink to this heading">#</a></h1>
+<section id="stat-159-final-project">
+<h2>STAT 159 - Final Project<a class="headerlink" href="#stat-159-final-project" title="Permalink to this heading">#</a></h2>
+<section id="created-by-group-16-claire-mai-avery-klauke-gilberto-perezalonso-prasaan-guruprasad">
+<h3>Created by Group 16: Claire Mai, Avery Klauke, Gilberto Perezalonso, Prasaan Guruprasad<a class="headerlink" href="#created-by-group-16-claire-mai-avery-klauke-gilberto-perezalonso-prasaan-guruprasad" title="Permalink to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -443,14 +447,16 @@ document.write(`
 </div>
 </div>
 </div>
+</section>
+</section>
 <section id="introduction">
-<h3>1. Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h3>
+<h2>1. Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h2>
 <section id="overview-and-objectives">
-<h4>1.1 Overview and Objectives<a class="headerlink" href="#overview-and-objectives" title="Permalink to this heading">#</a></h4>
+<h3>1.1 Overview and Objectives<a class="headerlink" href="#overview-and-objectives" title="Permalink to this heading">#</a></h3>
 <p>The rising cost of healthcare has become a significant concern for both individuals and insurance companies. In this analysis, our primary objective is to explore the factors affecting health insurance charges and develop a model to predict these charges based on demographic and lifestyle factors. Understanding these relationships can help insurance companies develop better pricing strategies and assist individuals in making informed decisions about their health and insurance options.</p>
 </section>
 <section id="dataset-description-and-relevance">
-<h4>1.2 Dataset Description and Relevance<a class="headerlink" href="#dataset-description-and-relevance" title="Permalink to this heading">#</a></h4>
+<h3>1.2 Dataset Description and Relevance<a class="headerlink" href="#dataset-description-and-relevance" title="Permalink to this heading">#</a></h3>
 <p>The dataset used for this analysis has been obtained from Kaggle and contains information on insurance charges for a sample of individuals. It provides insight into the relationship between various factors and the cost of health insurance, making it highly relevant to the problem at hand. The dataset consists of 1340 records and 7 columns, including the target variable (charges) and the following predictor variables:</p>
 <ol class="arabic simple">
 <li><p>age: Age of the primary beneficiary (in years).</p></li>
@@ -464,13 +470,13 @@ document.write(`
 </section>
 </section>
 <section id="data-preprocessing-and-exploration">
-<h3>2. Data Preprocessing and Exploration<a class="headerlink" href="#data-preprocessing-and-exploration" title="Permalink to this heading">#</a></h3>
+<h2>2. Data Preprocessing and Exploration<a class="headerlink" href="#data-preprocessing-and-exploration" title="Permalink to this heading">#</a></h2>
 <section id="preprocessing-and-cleaning">
-<h4>2.1 Preprocessing and Cleaning<a class="headerlink" href="#preprocessing-and-cleaning" title="Permalink to this heading">#</a></h4>
+<h3>2.1 Preprocessing and Cleaning<a class="headerlink" href="#preprocessing-and-cleaning" title="Permalink to this heading">#</a></h3>
 <p>The dataset provided was already in a clean and well-organized format, requiring minimal preprocessing. We verified the data types, checked for missing or duplicate values, and confirmed that the categorical variables were consistently labeled. No significant data cleaning was necessary, allowing us to proceed directly to the data exploration phase.</p>
 </section>
 <section id="data-exploration">
-<h4>2.2 Data Exploration<a class="headerlink" href="#data-exploration" title="Permalink to this heading">#</a></h4>
+<h3>2.2 Data Exploration<a class="headerlink" href="#data-exploration" title="Permalink to this heading">#</a></h3>
 <p>An extensive exploratory data analysis (EDA) was conducted to gain insights into the dataset and identify potential patterns or correlations. All the detailed exploration can be found in the eda.ipynb notebook. Some of the key techniques used include:</p>
 <ul class="simple">
 <li><p>Heatmaps: To visualize the correlation between different variables.</p></li>
@@ -480,7 +486,7 @@ document.write(`
 </ul>
 </section>
 <section id="key-findings">
-<h4>2.3 Key Findings<a class="headerlink" href="#key-findings" title="Permalink to this heading">#</a></h4>
+<h3>2.3 Key Findings<a class="headerlink" href="#key-findings" title="Permalink to this heading">#</a></h3>
 <p>Through our data exploration, we discovered several interesting patterns and correlations in the data:</p>
 <p><img alt="Charges by smoker" src="_images/charges_by_smoker.png" /></p>
 <ol class="arabic simple">
@@ -499,9 +505,9 @@ document.write(`
 </section>
 </section>
 <section id="assumptions-and-justification">
-<h3>3. Assumptions and Justification<a class="headerlink" href="#assumptions-and-justification" title="Permalink to this heading">#</a></h3>
+<h2>3. Assumptions and Justification<a class="headerlink" href="#assumptions-and-justification" title="Permalink to this heading">#</a></h2>
 <section id="assumptions">
-<h4>3.1 Assumptions<a class="headerlink" href="#assumptions" title="Permalink to this heading">#</a></h4>
+<h3>3.1 Assumptions<a class="headerlink" href="#assumptions" title="Permalink to this heading">#</a></h3>
 <p>We made several assumptions about the data and its acquisition:</p>
 <ol class="arabic simple">
 <li><p>The data is representative of the population of interest, capturing a diverse set of individuals with varying demographic and lifestyle factors.</p></li>
@@ -510,7 +516,7 @@ document.write(`
 </ol>
 </section>
 <section id="justifications-and-limitations">
-<h4>3.2 Justifications and Limitations<a class="headerlink" href="#justifications-and-limitations" title="Permalink to this heading">#</a></h4>
+<h3>3.2 Justifications and Limitations<a class="headerlink" href="#justifications-and-limitations" title="Permalink to this heading">#</a></h3>
 <p>We chose the available variables (age, sex, BMI, children, smoker, and region) because they are commonly considered factors that influence health insurance charges. No major transformations were applied to the data, as it was already in a clean and usable format. However, we acknowledge that there could be potential limitations or biases in the data:</p>
 <ul class="simple">
 <li><p>The dataset may not capture all relevant factors that influence insurance charges, such as pre-existing medical conditions or income levels.</p></li>
@@ -519,10 +525,10 @@ document.write(`
 </ul>
 </section>
 <section id="statistical-hypothesis-and-model">
-<h4>3.3 Statistical Hypothesis and Model<a class="headerlink" href="#statistical-hypothesis-and-model" title="Permalink to this heading">#</a></h4>
+<h3>3.3 Statistical Hypothesis and Model<a class="headerlink" href="#statistical-hypothesis-and-model" title="Permalink to this heading">#</a></h3>
 <p>Based on the findings from the EDA, we propose a statistical model to predict health insurance charges using the available variables. The choice of the specific model will be based on its performance and interpretability. We will test different models, such as linear regression, decision trees, or ensemble methods, and choose the one that best balances accuracy and simplicity. The reasoning behind this approach is to create a model that not only performs well but also provides insights into the relationships between the variables and insurance charges.</p>
 <section id="linear-regression">
-<h5>Linear Regression<a class="headerlink" href="#linear-regression" title="Permalink to this heading">#</a></h5>
+<h4>Linear Regression<a class="headerlink" href="#linear-regression" title="Permalink to this heading">#</a></h4>
 <p>First, we can run a simple linear regression to see how each variable impacts health insurance variable charges.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -582,7 +588,7 @@ Notes:
 <p>As the results describe, age, bmi, number of children, and smoking all significantly contribute to a higher premium. This aligns with what we saw in the exploratory data analysis section as well. In reality, we would also want to explore other variables that can more discretely influence premium charges.</p>
 </section>
 <section id="modeling">
-<h5>Modeling<a class="headerlink" href="#modeling" title="Permalink to this heading">#</a></h5>
+<h4>Modeling<a class="headerlink" href="#modeling" title="Permalink to this heading">#</a></h4>
 <p>Next, we can use different classifiers to see how accurately we can predict a variable of choice. As seen above, smoking was one of the most significant variables on charges. In this example, we will see how well we can predict whether an individual smokes using a random forest classifier. Additional modeling can be viewed in the modeling notebook. <strong>The function “modeling_accuracy” can also work with other classifiers and predictor variables.</strong></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -611,16 +617,15 @@ Testing Accuracy: 0.9626865671641791
 </section>
 </section>
 <section id="analysis-and-results">
-<h3>4. Analysis and Results<a class="headerlink" href="#analysis-and-results" title="Permalink to this heading">#</a></h3>
+<h2>4. Analysis and Results<a class="headerlink" href="#analysis-and-results" title="Permalink to this heading">#</a></h2>
 <p>We saw that both simple linear regression and modeling can be useful on a data set like this one that describes health premium charges. We also noted that these functions can be adjusted to better fit the needs of the researcher and hopefully expand its use beyond the scope of this project and data set. The importance of this analysis is the impact on individuals and health insurance companies. Recently, health insurance has been a large topic of debate, with the amount spent on health and medical bills dramatically rising in the United States over the past few years.</p>
 </section>
 <section id="contribution-statement">
-<h3>5. Contribution Statement<a class="headerlink" href="#contribution-statement" title="Permalink to this heading">#</a></h3>
+<h2>5. Contribution Statement<a class="headerlink" href="#contribution-statement" title="Permalink to this heading">#</a></h2>
 <p>Claire Mai: created the eda notebook, function label_encoder, and tests for label_encoder; also chose the data and created the figures and test folder folder</p>
 <p>Avery Klauke: created the modeling notebook, function modeling_accuracy, tests for modeling_accuracy, helped with the main notebook; created binder link and license</p>
 <p>Gilberto Perezalonso: created the main notebook, created jupyterbook</p>
-<p>Prasaan Guruprasad: created annd tested the Makefile</p>
-</section>
+<p>Prasaan Guruprasad: created and tested the Makefile</p>
 </section>
 <div class="toctree-wrapper compound">
 </div>
@@ -635,16 +640,16 @@ Testing Accuracy: 0.9626865671641791
         },
         codeMirrorConfig: {
             theme: "abcdef",
-            mode: "insurance"
+            mode: "python"
         },
         kernelOptions: {
-            name: "insurance",
+            name: "python3",
             path: "./."
         },
         predefinedOutput: true
     }
     </script>
-    <script>kernelName = 'insurance'</script>
+    <script>kernelName = 'python3'</script>
 
                 </article>
               
@@ -684,32 +689,33 @@ Testing Accuracy: 0.9626865671641791
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#predicting-health-insurance-charges-an-exploratory-analysis-of-demographic-and-lifestyle-factors">Predicting Health Insurance Charges: An Exploratory Analysis of Demographic and Lifestyle Factors</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">1. Introduction</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#overview-and-objectives">1.1 Overview and Objectives</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-description-and-relevance">1.2 Dataset Description and Relevance</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stat-159-final-project">STAT 159 - Final Project</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#created-by-group-16-claire-mai-avery-klauke-gilberto-perezalonso-prasaan-guruprasad">Created by Group 16: Claire Mai, Avery Klauke, Gilberto Perezalonso, Prasaan Guruprasad</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-preprocessing-and-exploration">2. Data Preprocessing and Exploration</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessing-and-cleaning">2.1 Preprocessing and Cleaning</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#data-exploration">2.2 Data Exploration</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#key-findings">2.3 Key Findings</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">1. Introduction</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overview-and-objectives">1.1 Overview and Objectives</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset-description-and-relevance">1.2 Dataset Description and Relevance</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assumptions-and-justification">3. Assumptions and Justification</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#assumptions">3.1 Assumptions</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#justifications-and-limitations">3.2 Justifications and Limitations</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#statistical-hypothesis-and-model">3.3 Statistical Hypothesis and Model</a><ul class="nav section-nav flex-column">
-<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-regression">Linear Regression</a></li>
-<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#modeling">Modeling</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-preprocessing-and-exploration">2. Data Preprocessing and Exploration</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessing-and-cleaning">2.1 Preprocessing and Cleaning</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-exploration">2.2 Data Exploration</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#key-findings">2.3 Key Findings</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assumptions-and-justification">3. Assumptions and Justification</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assumptions">3.1 Assumptions</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#justifications-and-limitations">3.2 Justifications and Limitations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#statistical-hypothesis-and-model">3.3 Statistical Hypothesis and Model</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-regression">Linear Regression</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#modeling">Modeling</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-and-results">4. Analysis and Results</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contribution-statement">5. Contribution Statement</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-and-results">4. Analysis and Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contribution-statement">5. Contribution Statement</a></li>
 </ul>
   </nav></div>
 
