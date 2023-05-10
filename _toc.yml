@@ -2,10 +2,10 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: main
+root: main.ipynb
 parts:
 - caption: Supplemental Notebooks
-    chapters:
-    - file: eda
-    - file: modeling
-    - file: project-description
+  chapters:
+  - file: eda.ipynb
+  - file: modeling.ipynb
+  - file: project-description.md
