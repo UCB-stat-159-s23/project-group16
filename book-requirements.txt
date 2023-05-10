@@ -1,0 +1,9 @@
+jupyter-book
+matplotlib
+numpy
+sklearn
+pandas
+statsmodels.api
+matplotlib
+seaborn
+
