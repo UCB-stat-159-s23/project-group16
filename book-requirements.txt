@@ -3,7 +3,7 @@ matplotlib
 numpy
 sklearn
 pandas
-statsmodels.api
+statsmodels
 matplotlib
 seaborn
 
