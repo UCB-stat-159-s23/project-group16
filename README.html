@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>&lt;no title&gt; &#8212; Final Project - STAT 156</title>
+    <title>Predicting Health Insurance Charges: An Exploratory Analysis of Demographic and Lifestyle Factors &#8212; Final Project - STAT 156</title>
   
   
   
@@ -342,7 +342,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1><no title></h1>
+    <h1>Predicting Health Insurance Charges: An Exploratory Analysis of Demographic and Lifestyle Factors</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -351,9 +351,12 @@ document.write(`
                 <h2> Contents </h2>
             </div>
             <nav aria-label="Page">
-                <ul class="simple visible nav section-nav flex-column">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#group-16-claire-mai-avery-klauke-gilberto-perezalonso-and-prasaan-guruprasad">Group 16: Claire Mai, Avery Klauke, Gilberto Perezalonso, and Prasaan Guruprasad</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-description-and-significance">Data Description and Significance</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#repository-structure">Repository Structure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
 </ul>
-
             </nav>
         </div>
     </div>
@@ -364,9 +367,31 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <p>Binder link: <a class="reference external" href="https://mybinder.org/v2/gh/UCB-stat-159-s23/project-group16/da1a800"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a></p>
-<p>Description: This dataset came from Kaggle and titled <a class="reference external" href="https://www.kaggle.com/datasets/teertha/ushealthinsurancedataset">US Health Insurance Dataset</a>. In this dataset has health insurance premium charges and other variables related to life style and health. For example, bmi, number of children, region of care, etc. We chose this topic because of how unique healthcare prices are in the United States. We chose this dataset because the techniques used for exploring the data and modeling can be used on other health insurance datasets, beyond the scope of this project.</p>
+  <section id="predicting-health-insurance-charges-an-exploratory-analysis-of-demographic-and-lifestyle-factors">
+<h1>Predicting Health Insurance Charges: An Exploratory Analysis of Demographic and Lifestyle Factors<a class="headerlink" href="#predicting-health-insurance-charges-an-exploratory-analysis-of-demographic-and-lifestyle-factors" title="Permalink to this heading">#</a></h1>
+<section id="group-16-claire-mai-avery-klauke-gilberto-perezalonso-and-prasaan-guruprasad">
+<h2>Group 16: Claire Mai, Avery Klauke, Gilberto Perezalonso, and Prasaan Guruprasad<a class="headerlink" href="#group-16-claire-mai-avery-klauke-gilberto-perezalonso-and-prasaan-guruprasad" title="Permalink to this heading">#</a></h2>
+<p>Binder link: <a class="reference external" href="https://mybinder.org/v2/gh/UCB-stat-159-s23/project-group16/da1a800"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a></p>
+</section>
+<section id="data-description-and-significance">
+<h2>Data Description and Significance<a class="headerlink" href="#data-description-and-significance" title="Permalink to this heading">#</a></h2>
+<p>This dataset came from Kaggle and titled <a class="reference external" href="https://www.kaggle.com/datasets/teertha/ushealthinsurancedataset">US Health Insurance Dataset</a>. In this dataset has health insurance premium charges and other variables related to life style and health. For example, bmi, number of children, region of care, etc. We chose this topic because of how unique healthcare prices are in the United States. We chose this dataset because the techniques used for exploring the data and modeling can be used on other health insurance datasets, beyond the scope of this project.</p>
 <p>This is the final project of the UC Berkeley Stat 159/259 class taught in Spring 2023.</p>
+</section>
+<section id="repository-structure">
+<h2>Repository Structure<a class="headerlink" href="#repository-structure" title="Permalink to this heading">#</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">data</span></code>: contains the Kaggle dataset</p>
+<p><code class="docutils literal notranslate"><span class="pre">figures</span></code>: contains the figures produced by <strong>eda.ipynb</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">instools</span></code>: functions created for eda and modeling section; also contains the tests for these functions</p>
+<p><code class="docutils literal notranslate"><span class="pre">eda.ipynb</span></code>: Jupytern Notebook that does exploratory data analysis on the dataset. Plots show the relationship between all seven variables provided.</p>
+<p><code class="docutils literal notranslate"><span class="pre">main.ipynb</span></code>: Main Jupyter Notebook that futher explains the data analysis process and significance. Also contains information on workflow and contribution.</p>
+<p><code class="docutils literal notranslate"><span class="pre">modeling.ipynb</span></code>: Jupyter Notebook that expands on the analysis of the data set. Prediction and inference are used to predict a variety of relationships.</p>
+</section>
+<section id="license">
+<h2>License<a class="headerlink" href="#license" title="Permalink to this heading">#</a></h2>
+<p>Our project employs the BSD 3-Clause License.</p>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -416,9 +441,12 @@ document.write(`
     <i class="fa-solid fa-list"></i> Contents
   </div>
   <nav class="bd-toc-nav page-toc">
-    <ul class="simple visible nav section-nav flex-column">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#group-16-claire-mai-avery-klauke-gilberto-perezalonso-and-prasaan-guruprasad">Group 16: Claire Mai, Avery Klauke, Gilberto Perezalonso, and Prasaan Guruprasad</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-description-and-significance">Data Description and Significance</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#repository-structure">Repository Structure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
 </ul>
-
   </nav></div>
 
 </div></div>
