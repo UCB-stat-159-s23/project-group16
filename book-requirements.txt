@@ -1,7 +1,7 @@
 jupyter-book
 matplotlib
 numpy
-sklearn
+scikit-learn
 pandas
 statsmodels
 matplotlib
